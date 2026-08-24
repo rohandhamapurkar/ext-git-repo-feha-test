@@ -1,0 +1,10 @@
+version: 1.0.0
+events:
+  build:
+    steps:
+      - build:
+          script:
+            - "nvm use 22"
+            - "npm install"
+            - "npm run build"
+            - 'echo "enable-prebuilt-artifact: true" > acquia_config.yaml'
