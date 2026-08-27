@@ -14,7 +14,7 @@ export default function Home() {
           priority
         />
         <ol>
-          <h1>Built by Acquia Pipelines.</h1>
+          <h1>Built by External Git Repo Acquia Pipeline Integration.</h1>
           <br></br>
           <li>
             Get started by editing <code>app/page.js</code>.
